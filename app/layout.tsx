@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     openGraph: {
         type: "website",
         locale: "en_US",
-        url: "https://tailwind-converter.vercel.app",
+        url: "https://tailwindcss-converter.vercel.app",
         title: "Tailwind CSS v3 to v4 Converter | Free Online Tool",
         description:
             "Convert your Tailwind CSS v3 configuration to v4 @theme syntax instantly. Free online tool with dark mode and real-time conversion.",
@@ -63,10 +63,34 @@ export const metadata: Metadata = {
         creator: "@tailwindcss",
     },
     alternates: {
-        canonical: "https://tailwind-converter.vercel.app",
+        canonical: "https://tailwindcss-converter.vercel.app",
     },
     category: "Web Development Tools",
     generator: "v0.dev",
+    openGraph: {
+        type: "website",
+        locale: "en_US",
+        url: "https://tailwindcss-converter.vercel.app",
+        title: "Tailwind CSS v3 to v4 Converter | Free Online Tool",
+        description:
+            "Convert your Tailwind CSS v3 configuration to v4 @theme syntax instantly. Free online tool with dark mode and real-time conversion.",
+        siteName: "Tailwind CSS Converter",
+        images: [
+            {
+                url: "/og-image.png",
+                width: 1200,
+                height: 630,
+                alt: "Tailwind CSS Converter - Free Online Tool",
+            },
+        ],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "Tailwind CSS v3 to v4 Converter | Free Online Tool",
+        description:
+            "Convert your Tailwind CSS v3 configuration to v4 @theme syntax instantly. Free online tool with dark mode and real-time conversion.",
+        images: ["/og-image.png"],
+    },
 };
 
 const jsonLd = {
@@ -75,7 +99,7 @@ const jsonLd = {
     name: "Tailwind CSS v3 to v4 Converter",
     description:
         "Free online tool to convert Tailwind CSS v3 configuration to v4 @theme syntax",
-    url: "https://tailwind-converter.vercel.app",
+    url: "https://tailwindcss-converter.vercel.app",
     applicationCategory: "DeveloperApplication",
     operatingSystem: "Web Browser",
     offers: {
@@ -111,7 +135,7 @@ export default function RootLayout({
                 />
                 <link
                     rel="canonical"
-                    href="https://tailwind-converter.vercel.app"
+                    href="https://tailwindcss-converter.vercel.app"
                 />
                 <meta
                     name="viewport"
